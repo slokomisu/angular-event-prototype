@@ -1,0 +1,6 @@
+<h2>Event List</h2>
+<ul *ngIf="events">
+  <li *ngFor="let event of events">
+    <app-event-list-item [event]="event"></app-event-list-item>
+  </li>
+</ul>
